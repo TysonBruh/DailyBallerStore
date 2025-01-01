@@ -1,0 +1,29 @@
+/* Body background color */
+body {
+    background-color: lightgreen !important;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar customization */
+.navbar-brand img {
+    max-width: 50px;
+    height: auto;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .nav-item {
+        font-size: 16px;
+    }
+}
+
+/* Make the Navbar start from the left */
+.navbar-nav {
+    margin-left: 0;
+    padding-left: 0;
+}
